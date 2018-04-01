@@ -1,0 +1,59 @@
+/**
+  *
+  * By-tag styles
+  *
+  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky; /* Most browsers */
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/**
+  *
+  * By-class styles
+  *
+  */
+.active {
+  background-color: #4CAF50;
+}
+
+.about {
+  float: right;
+}
+
+.content {
+  margin: 5px 0px;
+  padding: 10px 10px;
+  border: 1px dotted #000;
+}
+
+/**
+  *
+  * By-event styles
+  *
+  */
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
